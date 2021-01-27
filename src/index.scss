@@ -1,0 +1,26 @@
+@import "./assets/styles/colors";
+
+@font-face {
+  src: url('./assets/fonts/IRANSansWeb_Light.eot') format('eot'),
+   url('./assets/fonts/IRANSansWeb_Light.woff') format('woff');
+  font-family: iranSans;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: iranSans;
+}
+
+::selection {
+  background-color: $primary-color;
+  color: white;
+}
+
+i, svg {
+  cursor: pointer;
+}

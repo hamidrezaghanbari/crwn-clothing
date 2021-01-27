@@ -1,0 +1,15 @@
+@import "./../../assets/styles/colors";
+
+
+input[type='password']:focus {
+    letter-spacing: 0.3em;
+}
+
+.form-input {
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid $primary-color;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}

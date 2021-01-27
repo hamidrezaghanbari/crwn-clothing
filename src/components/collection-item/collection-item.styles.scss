@@ -1,0 +1,84 @@
+
+
+.collection-item-image-holder {
+    height: 85%;
+    margin-bottom: 10px;
+}
+
+.collection-item-detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-to-card-section {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    button {
+        height: 60px;
+        width: 70%;
+        border: none;
+        outline: none;
+        background-color: rgba($color: #ffffff, $alpha: 0.3);
+    }
+}
+
+.add-to-card-section:hover {
+    cursor: pointer;
+    button {
+        cursor: pointer;
+        background-color: rgba($color: #ffffff, $alpha: 0.9);
+        transition: 0.5s;
+    }
+}
+
+@media only screen and (min-width: 200px) {
+    .collection-preview-container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (min-width: 300px) {
+    .collection-item {
+        height: 350px;
+        width: 95%;
+        margin: 0 15px;
+    }
+}
+@media only screen and (min-width: 400px) {
+
+}
+@media only screen and (min-width: 500px) {
+
+}
+@media only screen and (min-width: 600px) {
+
+}
+@media only screen and (min-width: 700px) {
+
+}
+@media only screen and (min-width: 800px) {
+    .collection-item {
+        height: 350px;
+        width: 23%;
+        margin: 0 15px;
+    }
+}
+@media only screen and (min-width: 900px) {
+
+}
+@media only screen and (min-width: 1000px) {
+
+}
+@media only screen and (min-width: 1100px) {
+
+}
+@media only screen and (min-width: 1200px) {
+
+}
+@media only screen and (min-width: 1300px) {
+
+}

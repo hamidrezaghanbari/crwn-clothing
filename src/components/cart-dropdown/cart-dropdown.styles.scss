@@ -1,0 +1,33 @@
+.cart-dropdown {
+    background-color: white;
+    border: 3px solid black;
+    position: absolute;
+    top: 75px;
+    right: 25px;
+    width: 300px;
+    z-index: 5;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.cart-close {
+    cursor: pointer;
+}
+
+.cart-dropdown-list {
+    list-style: none;
+    max-height: 200px;
+    overflow-y: auto;
+
+    li {
+        height: 65px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.cart-empty-text {
+    padding: 10px 0;
+    text-align: center;
+}

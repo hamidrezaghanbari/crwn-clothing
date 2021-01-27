@@ -1,0 +1,17 @@
+.cart-icon-holder {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.cart-count {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 50%;
+    bottom: 0;
+    right: -10px;
+}

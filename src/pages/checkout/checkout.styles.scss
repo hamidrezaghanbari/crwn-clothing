@@ -1,0 +1,27 @@
+.checkout-page {
+    padding: 80px 20%;
+
+    table {
+        width: 100%;
+    }
+
+    h2 {
+        text-align: center;
+        padding: 10px 0;
+    }
+}
+
+.checkout-table-header > th, .checkout-table-row > td {
+    padding: 25px 0;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+.checkout-table-footer > td {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.empty-table-text {
+    padding: 10px 0;
+}
